@@ -11,6 +11,8 @@ import org.springframework.stereotype.Component;
 
 import io.jsonwebtoken.*;
 
+import javax.crypto.spec.SecretKeySpec;
+
 @Component
 public class JwtUtils {
     private static final Logger logger = LoggerFactory.getLogger(JwtUtils.class);

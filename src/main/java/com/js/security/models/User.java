@@ -9,7 +9,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 import java.util.HashSet;
 import java.util.Set;
 
-@Document(collation = "users")
+@Document("users")
 public class User {
     @Id
     private String id;
